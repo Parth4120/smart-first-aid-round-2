@@ -23,7 +23,7 @@ export default function Navbar() {
     const handleChange = e => { 
       
         setLang(e.target.value); 
-        let loc = "http://localhost:3000/";
+        let loc = "http://34.131.215.6/";
         window.location.replace(loc + "?lng=" + e.target.value);
     }
   return (
